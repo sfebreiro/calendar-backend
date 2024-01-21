@@ -6,7 +6,7 @@ const dbConnection = async() => {
             // Actualmente ya no hacen falta
             useNewUrlParser: true, 
             useUnifiedTopology: true,
-            //useCreateIndex: true
+            useCreateIndex: true
         });
         console.log('DB Online');
     } catch (error) {
